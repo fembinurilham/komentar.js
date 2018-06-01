@@ -24,7 +24,7 @@ var disqus_url = disqus_blogger_current_url;
     }
 })();
 
-!function(e,n,t){var o,c=e.getElementsByTagName(n)[0];e.getElementById(t)||(o=e.createElement(n),o.id=t,o.src="//connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.3",c.parentNode.insertBefore(o,c))}(document,"script","facebook-jssdk");
+!function(e,n,t){var o,c=e.getElementsByTagName(n)[0];e.getElementById(t)||(o=e.createElement(n),o.id=t,o.src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v3.0&appId=1350636735080532&autoLogAppEvents=1",c.parentNode.insertBefore(o,c))}(document,"script","facebook-jssdk");
 
     var divs = ["disqus-box", "blogger-box", "facebook-box"];
     var visibleDivId = null;
