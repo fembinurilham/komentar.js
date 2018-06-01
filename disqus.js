@@ -24,13 +24,7 @@ var disqus_url = disqus_blogger_current_url;
     }
 })();
 
-!function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v3.0&appId=1350636735080532&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
+!function(e,n,t){var o,c=e.getElementsByTagName(n)[0];e.getElementById(t)||(o=e.createElement(n),o.id=t,o.src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0",c.parentNode.insertBefore(o,c))}(document,"script","facebook-jssdk");
 
     var divs = ["disqus-box", "blogger-box", "facebook-box"];
     var visibleDivId = null;
